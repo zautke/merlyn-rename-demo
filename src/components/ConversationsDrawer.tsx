@@ -100,7 +100,9 @@ export function ConversationsDrawer({
         <div className="p-3 border-b border-drawer-search-border bg-drawer-search-bg">
           <div className="relative">
             <Search size={14} className="absolute left-2.5 top-1/2 -translate-y-1/2 text-drawer-search-icon" />
-            <input 
+            <input
+              id="conversation-search"
+              name="conversation-search"
               type="search"
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}

@@ -48,6 +48,8 @@ export default function App() {
           <textarea
             value={prompt}
             onChange={(e) => setPrompt(e.target.value)}
+            id="rename-prompt"
+            name="rename-prompt"
             placeholder="Stub rename prompt…"
             rows={4}
             className="w-80 resize-none rounded-lg border border-slate-300 bg-white p-3 text-sm shadow-sm focus:outline-none focus:ring-2 focus:ring-teal-400"
