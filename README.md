@@ -1,6 +1,6 @@
 # Merlyn Rename Demo
 
-Hello Everyone! I am excited and jazzed-up for this opportunity to meet with you all and put my best forward and my fu on display.
+Hello Everyone! I am excited and jazzed-up for this opportunity to meet with you all and put my best foot forward and my fu on display.
 
 ---
 
@@ -12,9 +12,9 @@ Originally spawnned as a CLI app and implemented as lower-level, framework-free 
 
 ![Merlyn browser extension](assets/merlyn1.png)
 
-Having access to the not only the page context (like Gemini), Merlyn has the tools available to query DevTools panel tabs, leverage CDP, and manipulate various aspect of DOM (_unlike_ Gemini). Or just use it as chatbot to ask something entirely unrelated.
+Having access to the not only the page context (like Ask Gemini), Merlyn has the tools available to query DevTools panel tabs, leverage CDP, and manipulate various aspect of DOM (_unlike_ Gemini). Or just use it as chatbot to ask something entirely unrelated.
 
-I apologize in advance for the fact UI polish design is one of the last endeavors of my workflow after the plumbing is all in place. The design right now, well, still sux.
+I apologize in advance for the fact UI polish is one of the last endeavors of my workflow after the plumbing is all in place. The design right now, well, still sux.
 
 ---
 
