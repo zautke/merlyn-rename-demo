@@ -8,3 +8,8 @@ export interface Conversation {
   manualRenamedAt?: number;
   updatedAt: number;
 }
+
+export type DbConversationItem =
+  | { kind: 'chat'; role: 'user' | 'assistant'; content: string }
+  | { kind: 'ooc'; content: string }
+  | { kind: 'model-info'; modelSnapshot: { providerName: string; displayName: string } };
