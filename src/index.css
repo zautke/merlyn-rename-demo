@@ -1,0 +1,42 @@
+@import 'tailwindcss';
+
+@theme {
+  --color-drawer-backdrop: color-mix(in srgb, var(--color-slate-900) 20%, transparent);
+  --color-drawer-bg: var(--color-slate-50);
+  --color-drawer-border: var(--color-slate-200);
+  --color-drawer-header-bg: var(--color-white);
+  --color-drawer-header-border: var(--color-slate-200);
+  --color-drawer-newbtn-bg: var(--color-teal-50);
+  --color-drawer-newbtn-text: var(--color-teal-700);
+  --color-drawer-newbtn-bg-hover: var(--color-teal-100);
+  --color-drawer-closebtn-icon: var(--color-slate-400);
+  --color-drawer-closebtn-icon-hover: var(--color-slate-600);
+  --color-drawer-closebtn-bg-hover: var(--color-slate-100);
+  --color-drawer-search-bg: var(--color-white);
+  --color-drawer-search-border: var(--color-slate-200);
+  --color-drawer-search-icon: var(--color-slate-400);
+  --color-drawer-search-input-bg: var(--color-slate-100);
+  --color-drawer-search-input-border: var(--color-slate-200);
+  --color-drawer-search-input-bg-focus: var(--color-white);
+  --color-drawer-search-input-border-focus: var(--color-teal-400);
+  --color-drawer-empty-text: var(--color-slate-400);
+  --color-drawer-item-bg-active: var(--color-teal-50);
+  --color-drawer-item-text-active: var(--color-teal-900);
+  --color-drawer-item-text: var(--color-slate-600);
+  --color-drawer-item-bg-hover: var(--color-white);
+  --color-drawer-item-text-hover: var(--color-slate-900);
+  --color-drawer-item-icon: var(--color-slate-400);
+  --color-drawer-item-icon-active: var(--color-teal-600);
+  --color-drawer-edit-bg: var(--color-white);
+  --color-drawer-edit-border: var(--color-teal-400);
+  --color-drawer-optbtn-icon: var(--color-slate-400);
+  --color-drawer-optbtn-icon-hover: var(--color-slate-700);
+  --color-drawer-optbtn-bg-hover: var(--color-slate-200);
+  --color-drawer-optbtn-bg-active: var(--color-slate-200);
+  --color-drawer-dropdown-bg: var(--color-white);
+  --color-drawer-dropdown-border: var(--color-slate-200);
+  --color-drawer-dropdown-item-text: var(--color-slate-700);
+  --color-drawer-dropdown-item-bg-hover: var(--color-slate-100);
+  --color-drawer-dropdown-delete-text: var(--color-rose-600);
+  --color-drawer-dropdown-delete-bg-hover: var(--color-rose-50);
+}
